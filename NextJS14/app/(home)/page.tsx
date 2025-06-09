@@ -1,9 +1,10 @@
-import Navigation from "../components/navigation";
+export const metadata = {
+  title: "Home",
+};
 
 export default function App() {
   return (
     <div>
-      <Navigation />
       <h1>Welcome to Our Website</h1>
     </div>
   );
